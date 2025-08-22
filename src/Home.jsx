@@ -17,21 +17,46 @@ function Home() {
     lg:text-2xl
   `;
 
-  const textOptions = ["STEM tutor", "student", "outdoor enthusiast"];
-  let textIndex = 0;
-  let letterArr = textOptions[textIndex].split("");
-  let letterIndex = 0;
-
   useEffect(() => {
     const element = document.getElementById("animated-text");
-    const buildInterval = setInterval(() => {
-      if (element.textContent.length < letterArr.length) {
-        element.textContent = element.textContent += letterArr[letterIndex];
-        letterIndex++;
-      } else {
-        clearInterval(buildInterval);
+    element.textContent = "Computer Science Student";
+    const words = [
+      "Computer Science Student",
+      "STEM Tutor",
+      "Outdoor Enthusiast",
+    ];
+    let word = 0;
+    let letters = words[word].split("");
+    let letter = 0;
+    const loopInterval = setInterval(() => {
+      if (element.textContent.length === 0) {
+        letter = 0;
+        const addInterval = setInterval(() => {
+          if (element.textContent.length < letters.length) {
+            element.textContent = element.textContent += letters[letter];
+            letter++;
+          } else {
+            clearInterval(addInterval);
+          }
+        }, 150);
+      } else if (element.textContent.length === letters.length) {
+        letter = element.textContent.length - 1;
+        const deleteInterval = setInterval(() => {
+          if (element.textContent.length > 0) {
+            element.textContent = element.textContent.substring(0, letter - 1);
+            letter--;
+          } else {
+            if (word === words.length - 1) {
+              word = 0;
+            } else {
+              word++;
+            }
+            letters = words[word].split("");
+            clearInterval(deleteInterval);
+          }
+        }, 75);
       }
-    }, 100);
+    }, 1500);
   }, []);
 
   return (
