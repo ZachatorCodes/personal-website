@@ -24,6 +24,8 @@ function Home() {
       "Computer Science Student",
       "STEM Tutor",
       "Outdoor Enthusiast",
+      "Front-End Developer",
+      "Back-End Developer"
     ];
     let word = 0;
     let letters = words[word].split("");
@@ -38,7 +40,7 @@ function Home() {
           } else {
             clearInterval(addInterval);
           }
-        }, 150);
+        }, 100);
       } else if (element.textContent.length === letters.length) {
         letter = element.textContent.length - 1;
         const deleteInterval = setInterval(() => {
@@ -56,7 +58,7 @@ function Home() {
           }
         }, 75);
       }
-    }, 1500);
+    }, 2000);
   }, []);
 
   return (
