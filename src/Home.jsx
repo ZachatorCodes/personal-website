@@ -12,9 +12,9 @@ function Home() {
     xl:mt-12 xl:w-50/100
   `;
   const codeText = `
-    text-s
-    md:text-lg
-    lg:text-2xl
+    text-md
+    md:text-xl
+    lg:text-3xl
   `;
 
   useEffect(() => {
@@ -24,15 +24,13 @@ function Home() {
       "Computer Science Student",
       "STEM Tutor",
       "Outdoor Enthusiast",
-      "Front-End Developer",
-      "Back-End Developer"
+      "Full-Stack Developer"
     ];
     let word = 0;
     let letters = words[word].split("");
     let letter = 0;
     const loopInterval = setInterval(() => {
       if (element.textContent.length === 0) {
-        letter = 0;
         const addInterval = setInterval(() => {
           if (element.textContent.length < letters.length) {
             element.textContent = element.textContent += letters[letter];
