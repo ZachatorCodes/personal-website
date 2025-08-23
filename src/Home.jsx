@@ -11,7 +11,7 @@ function Home() {
     lg:mt-9 lg:w-60/100
     xl:mt-12 xl:w-50/100
   `;
-  const codeText = `
+  let codeText = `
     text-md
     md:text-xl
     lg:text-3xl
@@ -91,7 +91,7 @@ function Home() {
         <pre data-prefix="5" className={codeText}>
           <code></code>
         </pre>
-        <pre data-prefix="6" className={codeText}>
+        <pre data-prefix="6" className={codeText.concat("\tflex")}>
           <code id="animated-text"></code>
         </pre>
       </div>
