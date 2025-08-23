@@ -4,25 +4,24 @@ function CodeMock() {
   const mockup = `
     mockup-code
 
-    mt-6 w-70/100
+    mt-6 w-90/100
     mx-auto
    
-    md:mt-6
     lg:mt-9 lg:w-60/100
     xl:mt-12 xl:w-50/100
   `;
 
   let codeText = `
-    text-md
+    text-lg
     md:text-xl
     lg:text-3xl
   `;
 
   let codeTextFlex = `
-    text-md
+    flex
+    text-lg
     md:text-xl
     lg:text-3xl
-    flex
   `;
 
   const words = [
