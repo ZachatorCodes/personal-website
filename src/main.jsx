@@ -5,18 +5,20 @@ import { RouterProvider } from "react-router/dom";
 import "./index.css";
 import App from "./App.jsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-  },
-  // {
-  //   path: ""
-  // },
-]);
+    basename: "/personal-website",
+  }
+);
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
-    <RouterProvider router={router} />
+  <RouterProvider router={router} />
   // </StrictMode>
 );
