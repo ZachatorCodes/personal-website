@@ -28,6 +28,14 @@ function Home() {
   let letters = words[word].split("");
   let letter = 0;
 
+  function cursorAnimation() {
+    const cursor = document.getElementById("cursor");
+    const blinkingAnimation = setInterval(() => {
+      cursor.className = "transition-opacity duration-300 opacity-0"
+      setTimeout(() => {cursor.className = "transition-opacity duration-300 opacity-100"}, 300);
+    }, 600)
+  }
+
   function buildWord() {
     const element = document.getElementById("animated-text");
     const addInterval = setInterval(() => {
@@ -68,6 +76,7 @@ function Home() {
   useEffect(() => {
     document.getElementById("animated-text").textContent =
       "Computer Science Student";
+    cursorAnimation();
     setTimeout(() => {
       destroyWord();
     }, 2000);
@@ -93,6 +102,7 @@ function Home() {
         </pre>
         <pre data-prefix="6" className={codeText.concat("\tflex")}>
           <code id="animated-text"></code>
+          <h1 id="cursor">|</h1>
         </pre>
       </div>
     </div>
