@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, Navigate } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import "./index.css";
 import App from "./App.jsx";
@@ -11,6 +11,10 @@ const router = createBrowserRouter(
       path: "/",
       element: <App />,
     },
+    {
+      path: "/*",
+      element: <Navigate replace to="/" />,
+    },
   ],
   {
     basename: "/personal-website",
@@ -18,7 +22,7 @@ const router = createBrowserRouter(
 );
 
 createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-  <RouterProvider router={router} />
-  // </StrictMode>
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
 );
