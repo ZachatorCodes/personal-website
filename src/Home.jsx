@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import CodeMock from "./CodeMock";
 
 function Home() {
