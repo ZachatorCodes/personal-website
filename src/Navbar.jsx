@@ -33,29 +33,7 @@ function Navbar() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/membership">Membership</Link>
-            </li>
-            <li>
               <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <details>
-                <summary>Gear</summary>
-                <ul className="bg-base-100 rounded-t-none p-2">
-                  <li>
-                    <Link to="/gear/basic">Basic</Link>
-                  </li>
-                  <li>
-                    <Link to="/gear/vertical">Vertical</Link>
-                  </li>
-                  <li>
-                    <Link to="/gear/survey">Survey</Link>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <Link to="/faq">FAQ</Link>
             </li>
           </ul>
         </div>
@@ -72,29 +50,7 @@ function Navbar() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/membership">Membership</Link>
-          </li>
-          <li>
             <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <details>
-              <summary>Gear</summary>
-              <ul className="bg-base-100 rounded-t-none p-2">
-                <li>
-                  <Link to="/gear/basic">Basic</Link>
-                </li>
-                <li>
-                  <Link to="/gear/vertical">Vertical</Link>
-                </li>
-                <li>
-                  <Link to="/gear/survey">Survey</Link>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <Link to="/faq">FAQ</Link>
           </li>
         </ul>
       </div>
