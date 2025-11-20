@@ -37,7 +37,7 @@ function CodeMock() {
   return (
     <div className={mockup}>
       <pre data-prefix="1" className={codeText}>
-        <code>Hello there!</code>
+        <code>Hello there 👋</code>
       </pre>
       <pre data-prefix="2" className={codeText}>
         <code></code>
