@@ -4,12 +4,15 @@ class Timer {
   cursor = document.getElementById("cursor"); // Get cursor
 
   constructor() {
+    this.deleteInterval;
     this.cursorInterval = setInterval(() => {
       this.startCursor();
     }, 600);
-    this.deleteInterval = setInterval(() => {
-      this.startDelete();
-    }, 100);
+    setTimeout(() => {
+      this.deleteInterval = setInterval(() => {
+        this.startDelete();
+      }, 50);
+    }, 2000);
     this.addInterval;
     this.textHelper = new TextHelper();
   }
@@ -22,7 +25,7 @@ class Timer {
       setTimeout(() => {
         this.deleteInterval = setInterval(() => {
           this.startDelete();
-        }, 100);
+        }, 50);
       }, 2000);
     }
   }
@@ -36,7 +39,7 @@ class Timer {
         this.addInterval = setInterval(() => {
           this.startAdd();
         }, 100);
-      }, 500);
+      }, 250);
     }
   }
 
