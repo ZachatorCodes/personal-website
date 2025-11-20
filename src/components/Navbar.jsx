@@ -33,6 +33,9 @@ function Navbar() {
               <Link to="/about">About</Link>
             </li>
             <li>
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li>
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
@@ -48,6 +51,9 @@ function Navbar() {
           </li>
           <li>
             <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/resume">Resume</Link>
           </li>
           <li>
             <Link to="/projects">Projects</Link>
