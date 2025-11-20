@@ -1,10 +1,14 @@
 class TextHelper {
   #textbox = document.getElementById("animated-text"); // Get textbox for animated text
   #words = [
+    "Full-Stack Developer",
     "Computer Science Student",
+    "Software Engineer",
+    "Mathematics Student",
     "STEM Tutor",
     "Outdoor Enthusiast",
-    "Full-Stack Developer",
+    "Lifelong Learner",
+    "Wilderness First Responder"
   ];
 
   #letters; // unused at initialization
@@ -23,7 +27,7 @@ class TextHelper {
   }
 
   nextWord() {
-    if (this.wordIndex != 3) {
+    if (this.wordIndex != this.#words.length - 1) {
       this.wordIndex++;
     } else {
       this.wordIndex = 0;
