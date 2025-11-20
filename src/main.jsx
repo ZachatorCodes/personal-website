@@ -5,6 +5,7 @@ import "./styles/index.css";
 import App from "./components/App.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
+import Resume from "./components/Resume.jsx";
 // import { StrictMode } from "react";
 
 const router = createBrowserRouter(
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
     {
       path: "/projects",
       element: <Projects />
+    },
+    {
+      path: "/resume",
+      element: <Resume />
     },
     {
       path: "/*",
