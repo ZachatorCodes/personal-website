@@ -1,9 +1,10 @@
 # Zach Schwartz's Personal Website
 
 This website was created to serve as a portfolio site for myself. Everything on the site is created with code, using multiple different front-end libraries.
+The site can be found [here](https://zachatorcodes.github.io/personal-website/).
 
 ## Tech Stack
-This website was created with a few different technologies
+This website was created with a few different technologies.
 * Vite - v7.1.2 (Build Tool)
 * React - v19.1.1 (Frontend Library)
 * DaisyUI - v5.0.50 (Frontend Style Library)
