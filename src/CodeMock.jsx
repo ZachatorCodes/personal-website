@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Timer from "./Timer";
+import Timer from "./classes/Timer";
 
 function CodeMock() {
 
