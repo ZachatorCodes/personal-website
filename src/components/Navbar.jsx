@@ -38,7 +38,7 @@ function Navbar() {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
-          ZachatorCodes
+          Zach Schwartz
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
