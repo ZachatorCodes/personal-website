@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
+      <Navbar />
     </div>
   )
 }
