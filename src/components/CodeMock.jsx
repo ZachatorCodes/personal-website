@@ -1,17 +1,7 @@
 import { useEffect } from "react";
 import Timer from "../classes/Timer";
 
-function CodeMock() {
-
-  const mockup = `
-    mockup-code
-
-    mt-6 w-90/100
-    mx-auto
-   
-    lg:mt-9 lg:w-60/100
-    xl:mt-12 xl:w-50/100
-  `;
+function CodeMock({mockup}) {
 
   let codeText = `
     text-lg
