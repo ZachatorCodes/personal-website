@@ -28,7 +28,6 @@ function CodeMock() {
 
   useEffect(() => {
     const timer = new Timer;
-    console.log(timer)
 
     // return (
     //   timer.endTimer()
