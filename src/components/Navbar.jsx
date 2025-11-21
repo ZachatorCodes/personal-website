@@ -3,7 +3,7 @@ import { Link } from "react-router";
 function Navbar() {
   return (
     <div className="navbar bg-base-300 shadow-xs sm:shadow-sm md:shadow-md">
-      <div className="navbar-start">
+      <div className="navbar-start w-[100%] sm:w-[50%]">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost sm:hidden">
             <svg
