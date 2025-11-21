@@ -3,26 +3,27 @@ import headshot from "/headshot.JPEG";
 
 function Home() {
   const mainContent = `
-    flex items-center justify-center
-    mt-12
-    px-5
+    flex flex-col sm:flex-row
+    items-center justify-center
+    mt-5 sm:mt-8 xl:mt-10
   `;
   
   const mockup = `
     mockup-code
-    w-40/100 xl:w-50/100
-    shadow-2xl
-    ml-3 xl:ml-5
+    w-80/100 sm:w-50/100 xl:w-50/100
+    shadow-xs sm:shadow-2xl
+    sm:ml-3 xl:ml-5
   `;
 
   const imageStyle = `
-    h-60 xl:h-75
-    w-60 xl:w-75
+    h-50 sm:h-50 md:h-62 xl:h-75
+    w-60 sm:w-55 md:w-62 xl:w-75
     rounded-full
     object-cover
-    shadow-2xl
+    shadow-xs sm:shadow-2xl
     border-5
-    ml-3 xl:ml-5
+    mb-4 sm:mb-0
+    sm:mr-3 xl:mr-5
   `;
 
   return (
