@@ -4,14 +4,12 @@ import Timer from "../classes/Timer";
 function CodeMock({mockup}) {
 
   let codeText = `
-    text-lg
-    xl:text-3xl
+    text-sm md:text-lg xl:text-3xl
   `;
 
   let codeTextFlex = `
     flex
-    text-lg
-    xl:text-3xl
+    text-sm md:text-lg xl:text-3xl
   `;
 
   useEffect(() => {
