@@ -5,15 +5,13 @@ function CodeMock({mockup}) {
 
   let codeText = `
     text-lg
-    md:text-xl
-    lg:text-3xl
+    xl:text-3xl
   `;
 
   let codeTextFlex = `
     flex
     text-lg
-    md:text-xl
-    lg:text-3xl
+    xl:text-3xl
   `;
 
   useEffect(() => {
