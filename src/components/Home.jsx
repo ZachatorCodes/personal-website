@@ -1,5 +1,6 @@
 import CodeMock from "./CodeMock";
 import headshot from "/headshot.JPEG";
+import riverbg from "/river-bg.jpg"
 
 function Home() {
   const mainContent = `
@@ -27,7 +28,7 @@ function Home() {
   `;
 
   return (
-    <div className={mainContent}>
+    <div className={mainContent} style={{backgroundImage: `url(${riverbg})`}}>
       <img src={headshot} className={imageStyle} />
       <CodeMock mockup={mockup} />
     </div>
