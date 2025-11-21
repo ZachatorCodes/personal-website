@@ -63,11 +63,12 @@ Please change the parent <Route path="${k}"> to <Route path="${k==="/"?"*":`${k}
   `,o=`
     flex
     text-sm md:text-lg xl:text-3xl
-  `;return w.useEffect(()=>{new Wg},[]),ie.jsxs("div",{className:i,children:[ie.jsx("pre",{"data-prefix":"1",className:r,children:ie.jsx("code",{children:"Hello there 👋"})}),ie.jsx("pre",{"data-prefix":"2",className:r,children:ie.jsx("code",{})}),ie.jsx("pre",{"data-prefix":"3",className:r,children:ie.jsx("code",{children:"My name is Zach Schwartz"})}),ie.jsx("pre",{"data-prefix":"4",className:r,children:ie.jsx("code",{children:"and I am a..."})}),ie.jsx("pre",{"data-prefix":"5",className:r,children:ie.jsx("code",{})}),ie.jsxs("pre",{"data-prefix":"6",className:o,children:[ie.jsx("code",{id:"animated-text"}),ie.jsx("h1",{id:"cursor",children:"|"})]})]})}const Pg="/personal-website/headshot.JPEG";function Ig(){return ie.jsxs("div",{className:`
+  `;return w.useEffect(()=>{new Wg},[]),ie.jsxs("div",{className:i,children:[ie.jsx("pre",{"data-prefix":"1",className:r,children:ie.jsx("code",{children:"Hello there 👋"})}),ie.jsx("pre",{"data-prefix":"2",className:r,children:ie.jsx("code",{})}),ie.jsx("pre",{"data-prefix":"3",className:r,children:ie.jsx("code",{children:"My name is Zach Schwartz"})}),ie.jsx("pre",{"data-prefix":"4",className:r,children:ie.jsx("code",{children:"and I am a..."})}),ie.jsx("pre",{"data-prefix":"5",className:r,children:ie.jsx("code",{})}),ie.jsxs("pre",{"data-prefix":"6",className:o,children:[ie.jsx("code",{id:"animated-text"}),ie.jsx("h1",{id:"cursor",children:"|"})]})]})}const Pg="/personal-website/headshot.JPEG",Ig="/personal-website/river-bg.jpg";function ep(){return ie.jsxs("div",{className:`
     flex flex-col sm:flex-row
     items-center justify-center
-    mt-5 sm:mt-8 xl:mt-10
-  `,children:[ie.jsx("img",{src:Pg,className:`
+    py-5 sm:py-8 xl:py-10
+    bg-center bg-cover
+  `,style:{backgroundImage:`url(${Ig})`},children:[ie.jsx("img",{src:Pg,className:`
     h-50 sm:h-50 md:h-62 xl:h-75
     w-60 sm:w-55 md:w-62 xl:w-75
     rounded-full
@@ -81,4 +82,4 @@ Please change the parent <Route path="${k}"> to <Route path="${k==="/"?"*":`${k}
     w-80/100 sm:w-50/100 xl:w-50/100
     shadow-xs sm:shadow-2xl
     sm:ml-3 xl:ml-5
-  `})]})}window.addEventListener("pageshow",i=>{i.persisted&&window.location.reload()});function ep(){return ie.jsxs("div",{className:"bg-base-200 h-screen",children:[ie.jsx(or,{}),ie.jsx(Ig,{})]})}function tp(){return ie.jsx("div",{children:ie.jsx(or,{})})}function lp(){return ie.jsx("div",{children:ie.jsx(or,{})})}function ap(){return ie.jsx("div",{children:ie.jsx(or,{})})}const np=Hg([{path:"/",element:ie.jsx(ep,{})},{path:"/about",element:ie.jsx(tp,{})},{path:"/projects",element:ie.jsx(lp,{})},{path:"/resume",element:ie.jsx(ap,{})},{path:"/*",element:ie.jsx(sg,{replace:!0,to:"/"})}],{basename:"/personal-website"});jy.createRoot(document.getElementById("root")).render(ie.jsx($g,{router:np}));
+  `})]})}window.addEventListener("pageshow",i=>{i.persisted&&window.location.reload()});function tp(){return ie.jsxs("div",{className:"bg-base-200 h-screen",children:[ie.jsx(or,{}),ie.jsx(ep,{})]})}function lp(){return ie.jsx("div",{children:ie.jsx(or,{})})}function ap(){return ie.jsx("div",{children:ie.jsx(or,{})})}function np(){return ie.jsx("div",{children:ie.jsx(or,{})})}const up=Hg([{path:"/",element:ie.jsx(tp,{})},{path:"/about",element:ie.jsx(lp,{})},{path:"/projects",element:ie.jsx(ap,{})},{path:"/resume",element:ie.jsx(np,{})},{path:"/*",element:ie.jsx(sg,{replace:!0,to:"/"})}],{basename:"/personal-website"});jy.createRoot(document.getElementById("root")).render(ie.jsx($g,{router:up}));
