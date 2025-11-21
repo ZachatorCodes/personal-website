@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="navbar bg-base-300 shadow-xs sm:shadow-sm md:shadow-md">
       <div className="navbar-start w-[100%] sm:w-[50%]">
-        <div className="dropdown">
+        <div className="dropdown mr-auto sm:mr-0">
           <div tabIndex={0} role="button" className="btn btn-ghost sm:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +43,7 @@ function Navbar() {
         <Link to="/" className="btn btn-ghost text-xl">
           Zach Schwartz
         </Link>
+        <div className="w-13.5 ml-auto sm:ml-0"></div>
       </div>
       <div className="navbar-end hidden sm:flex">
         <ul className="menu menu-horizontal px-1">
