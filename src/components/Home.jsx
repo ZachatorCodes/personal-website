@@ -2,37 +2,27 @@ import CodeMock from "./CodeMock";
 import headshot from "/headshot.JPEG";
 
 function Home() {
+  const mainContent = `
+    flex items-center justify-center
+    mt-12
+    px-5
+  `;
+  
   const mockup = `
     mockup-code
-    w-90/100
-    lg:w-60/100
-    xl:w-50/100
+    w-40/100 xl:w-50/100
     shadow-2xl
-    ml-5
-  `;
-
-  const mainContent = `
-    flex
-    items-center
-    content-center
-    align-middle
-    justify-center
-    mt-9
-    wv
-    mt-6
-    lg:mt-9 
-    xl:mt-12 
+    ml-3 xl:ml-5
   `;
 
   const imageStyle = `
-    h-75
-    w-75
+    h-60 xl:h-75
+    w-60 xl:w-75
     rounded-full
     object-cover
     shadow-2xl
     border-5
-    mr-5
-    hover-3d
+    ml-3 xl:ml-5
   `;
 
   return (
