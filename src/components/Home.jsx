@@ -6,7 +6,8 @@ function Home() {
   const mainContent = `
     flex flex-col sm:flex-row
     items-center justify-center
-    mt-5 sm:mt-8 xl:mt-10
+    py-5 sm:py-8 xl:py-10
+    bg-center bg-cover
   `;
   
   const mockup = `
