@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
+import Footer from "./Footer";
 
 window.addEventListener("pageshow", (event) => {
   if (event.persisted) {
@@ -12,6 +13,7 @@ function App() {
     <div className="bg-base-200 h-screen">
       <Navbar />
       <Home />
+      <Footer />
     </div>
   );
 }
