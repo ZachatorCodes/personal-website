@@ -18,8 +18,8 @@ function Home() {
   `;
 
   const imageStyle = `
-    h-50 sm:h-50 md:h-62 xl:h-75
-    w-60 sm:w-55 md:w-62 xl:w-75
+    h-50 md:h-62 xl:h-75
+    w-50 md:w-62 xl:w-75
     rounded-full
     object-cover
     shadow-xs sm:shadow-2xl
