@@ -69,8 +69,8 @@ Please change the parent <Route path="${k}"> to <Route path="${k==="/"?"*":`${k}
     py-5 sm:py-8 xl:py-10
     bg-center bg-cover
   `,style:{backgroundImage:`url(${Ig})`},children:[ie.jsx("img",{src:Pg,className:`
-    h-50 sm:h-50 md:h-62 xl:h-75
-    w-60 sm:w-55 md:w-62 xl:w-75
+    h-50 md:h-62 xl:h-75
+    w-50 md:w-62 xl:w-75
     rounded-full
     object-cover
     shadow-xs sm:shadow-2xl
