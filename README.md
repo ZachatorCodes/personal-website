@@ -15,4 +15,4 @@ This website was created with a few different technologies.
 ## External Code
 This website was creating using external code in order to allow hosting and front-end routing on GitHub Pages for a single-page web application.
 Thank you to [Rafael Pedicini](https://github.com/rafgraph) for figuring out this work-around!
-* [Single Page Application GitHub Pages Code](https://github.com/rafgraph/spa-github-pages)
+* [Single Page Application - GitHub Pages](https://github.com/rafgraph/spa-github-pages)
