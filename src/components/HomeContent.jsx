@@ -7,7 +7,7 @@ function HomeContent() {
   const cardStyle = `
     card rounded-2xl
     bg-base-100 shadow-lg
-    mx-5 my-10 w-96
+    w-96
     max-h-80
   `;
 
@@ -15,9 +15,14 @@ function HomeContent() {
     saturate-120
   `
 
+  const linkStyle = `
+    hover-3d
+    mx-8 my-10
+  `
+
   return (
     <div className="flex flex-col sm:flex-row justify-center">
-      <Link to="/about" className="hover-3d">
+      <Link to="/about" className={linkStyle}>
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Get To Know Me</h2>
@@ -43,7 +48,7 @@ function HomeContent() {
         <div></div>
         <div></div>
       </Link>
-      <Link to="/resume" className="hover-3d">
+      <Link to="/resume" className={linkStyle}>
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Explore My Experience</h2>
@@ -69,7 +74,7 @@ function HomeContent() {
         <div></div>
         <div></div>
       </Link>
-      <Link to="/projects" className="hover-3d">
+      <Link to="/projects" className={linkStyle}>
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Browse My Creations</h2>
