@@ -19,7 +19,11 @@ function HomeContent() {
     hover-3d
     mx-auto sm:mx-8 mt-5 sm:my-10
   `
-
+  const linkStyleBottom = `
+    hover-3d
+    mx-auto sm:mx-8 my-5 sm:my-10
+  `
+  
   return (
     <div className="flex flex-col sm:flex-row justify-center">
       <Link to="/about" className={linkStyle}>
@@ -74,7 +78,7 @@ function HomeContent() {
         <div></div>
         <div></div>
       </Link>
-      <Link to="/projects" className={linkStyle}>
+      <Link to="/projects" className={linkStyleBottom}>
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Browse My Creations</h2>
