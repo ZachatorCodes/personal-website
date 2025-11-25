@@ -8,11 +8,11 @@ function HomeContent() {
     card rounded-2xl
     bg-base-100 shadow-lg
     mx-5 my-10 w-96
-    max-h-75
+    max-h-80
   `;
 
   const imageStyle = `
-    
+    saturate-120
   `
 
   return (
