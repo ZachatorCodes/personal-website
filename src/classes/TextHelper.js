@@ -2,13 +2,12 @@ class TextHelper {
   #textbox = document.getElementById("animated-text"); // Get textbox for animated text
   #words = [
     "Full-Stack Developer",
-    "Computer Science Student",
     "Software Engineer",
+    "Computer Science Student",
     "Mathematics Student",
-    "STEM Tutor",
+    "Programming Tutor",
     "Outdoor Enthusiast",
     "Lifelong Learner",
-    "Wilderness First Responder"
   ];
 
   #letters; // unused at initialization
