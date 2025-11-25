@@ -6,6 +6,7 @@ function HomeContent() {
     card rounded-2xl
     bg-base-100 shadow-lg
     mx-5 my-10 w-96
+    max-h-75
   `;
 
   const imageStyle = `
