@@ -5,7 +5,7 @@ function HomeContent() {
   const cardStyle = `
     card
     bg-base-100 shadow-sm
-    mx-10 my-5 w-96
+    mx-5 my-10 w-96
   `;
 
   return (
@@ -26,6 +26,7 @@ function HomeContent() {
             />
           </figure>
         </div>
+        {/* Empty divs needed for hover 3d effect */}
         <div></div>
         <div></div>
         <div></div>
@@ -35,7 +36,7 @@ function HomeContent() {
         <div></div>
         <div></div>
       </Link>
-      <Link to="/resume">
+      <Link to="/resume" className="hover-3d">
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Card Title</h2>
@@ -51,8 +52,17 @@ function HomeContent() {
             />
           </figure>
         </div>
+        {/* Empty divs needed for hover 3d effect */}
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </Link>
-      <Link to="/projects">
+      <Link to="/projects" className="hover-3d">
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Card Title</h2>
@@ -68,6 +78,15 @@ function HomeContent() {
             />
           </figure>
         </div>
+        {/* Empty divs needed for hover 3d effect */}
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </Link>
     </div>
   );
