@@ -13,10 +13,9 @@ function HomeContent() {
       <Link to="/about" className="hover-3d">
         <div className={cardStyle}>
           <div className="card-body">
-            <h2 className="card-title">Card Title</h2>
+            <h2 className="card-title">Get To Know Me</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              Click here to read my personal introduction
             </p>
           </div>
           <figure>
@@ -39,10 +38,9 @@ function HomeContent() {
       <Link to="/resume" className="hover-3d">
         <div className={cardStyle}>
           <div className="card-body">
-            <h2 className="card-title">Card Title</h2>
+            <h2 className="card-title">Explore My Experience</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              Click here to view my virtual resume
             </p>
           </div>
           <figure>
@@ -65,10 +63,9 @@ function HomeContent() {
       <Link to="/projects" className="hover-3d">
         <div className={cardStyle}>
           <div className="card-body">
-            <h2 className="card-title">Card Title</h2>
+            <h2 className="card-title">Browse My Creations</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              Click here to see what I've built
             </p>
           </div>
           <figure>
