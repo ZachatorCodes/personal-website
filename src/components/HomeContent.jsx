@@ -1,5 +1,7 @@
 import { Link } from "react-router";
 import aboutImg from "/about-me.JPEG";
+import resumeImg from "/resume.JPEG";
+import projectsImg from "/projects.JPEG";
 
 function HomeContent() {
   const cardStyle = `
@@ -51,7 +53,7 @@ function HomeContent() {
           </div>
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src={resumeImg}
               alt="Shoes"
               className={imageStyle}
             />
@@ -77,7 +79,7 @@ function HomeContent() {
           </div>
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src={projectsImg}
               alt="Shoes"
               className={imageStyle}
             />
