@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Home from "./Home";
+import Home from "../pages/Home";
 
 window.addEventListener("pageshow", (event) => {
   if (event.persisted) {
