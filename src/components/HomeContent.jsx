@@ -1,50 +1,59 @@
-import aboutImg from "/about-me.JPEG"
+import aboutImg from "/about-me.JPEG";
 
 function HomeContent() {
   return (
-    <div className="flex justify-center">
-      <div className="card lg:card-side bg-base-100 shadow-sm w-[30%] m-5">
+    <div className="flex flex-col sm:flex-row justify-center">
+      <div className="card bg-base-100 shadow-sm w-[20%] my-5 mx-auto">
         <figure>
           <img
-            src={aboutImg}
-            alt="Album"
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">More About Me</h2>
-          <p>Click the button to learn more about me!</p>
+          <h2 className="card-title">Card Title</h2>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">About</button>
+            <button className="btn btn-primary">Buy Now</button>
           </div>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-sm w-[30%] m-5">
+      <div className="card bg-base-100 shadow-sm w-[20%] my-5 mx-auto">
         <figure>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-            alt="Album"
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">My Experiences</h2>
-          <p>Click the button to check out my resume and qualifications!</p>
+          <h2 className="card-title">Card Title</h2>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Resume</button>
+            <button className="btn btn-primary">Buy Now</button>
           </div>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-sm w-[30%] m-5">
+      <div className="card bg-base-100 shadow-sm w-[20%] my-5 mx-auto">
         <figure>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-            alt="Album"
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">My Work</h2>
-          <p>Click the button to check out some of the projects I've built!</p>
+          <h2 className="card-title">Card Title</h2>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Projects</button>
+            <button className="btn btn-primary">Buy Now</button>
           </div>
         </div>
       </div>
