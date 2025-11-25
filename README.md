@@ -13,6 +13,6 @@ This website was created with a few different technologies.
 * GitHub Pages - v6.3.0 (Site Hosting)
 
 ## External Resources
-This website was creating using a handful of external resources. They are listed below.
+This website was created using a handful of external resources. They are listed below.
 * [Single Page Web Application Routing for GitHub Pages](https://github.com/rafgraph/spa-github-pages)
 * [FlatIcon Code Logo](https://www.flaticon.com/free-icons/code)
