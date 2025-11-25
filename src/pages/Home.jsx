@@ -1,17 +1,18 @@
 import CodeMock from "../components/CodeMock";
+import HomeContent from "../components/HomeContent";
 import headshot from "/headshot.JPEG";
-import riverbg from "/river-bg.jpg"
+import riverbg from "/river-bg.jpg";
 
 function Home() {
-  document.title = "ZachatorCodes | Home"
+  document.title = "ZachatorCodes | Home";
 
-  const mainContent = `
+  const codeDiv = `
     flex flex-col sm:flex-row
     items-center justify-center
     py-5 sm:py-8 xl:py-10
     bg-center bg-cover
   `;
-  
+
   const mockup = `
     mockup-code
     w-80/100 sm:w-50/100 xl:w-50/100
@@ -31,10 +32,13 @@ function Home() {
   `;
 
   return (
-    <div className={mainContent} style={{backgroundImage: `url(${riverbg})`}}>
-      <img src={headshot} className={imageStyle} />
-      <CodeMock mockup={mockup} />
-    </div>
+    <>
+      <div className={codeDiv} style={{ backgroundImage: `url(${riverbg})` }}>
+        <img src={headshot} className={imageStyle} />
+        <CodeMock mockup={mockup} />
+      </div>
+      <HomeContent />
+    </>
   );
 }
 
