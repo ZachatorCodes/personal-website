@@ -3,9 +3,9 @@ import { createBrowserRouter, Navigate } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import "./styles/index.css";
 import App from "./components/App.jsx";
-import About from "./components/About.jsx";
-import Projects from "./components/Projects.jsx";
-import Resume from "./components/Resume.jsx";
+import About from "./pages/About.jsx";
+import Projects from "./pages/Projects.jsx";
+import Resume from "./pages/Resume.jsx";
 // import { StrictMode } from "react";
 
 const router = createBrowserRouter(
