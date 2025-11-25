@@ -10,7 +10,7 @@ function HomeContent() {
 
   return (
     <div className="flex flex-col sm:flex-row justify-center">
-      <Link to="/about">
+      <Link to="/about" className="hover-3d">
         <div className={cardStyle}>
           <div className="card-body">
             <h2 className="card-title">Card Title</h2>
@@ -26,6 +26,14 @@ function HomeContent() {
             />
           </figure>
         </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </Link>
       <Link to="/resume">
         <div className={cardStyle}>
