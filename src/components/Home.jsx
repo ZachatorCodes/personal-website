@@ -3,6 +3,8 @@ import headshot from "/headshot.JPEG";
 import riverbg from "/river-bg.jpg"
 
 function Home() {
+  document.title = "ZachatorCodes | Home"
+
   const mainContent = `
     flex flex-col sm:flex-row
     items-center justify-center
