@@ -9,8 +9,8 @@ function HomeContent() {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
+          <h2 className="card-title">More About Me</h2>
+          <p>Click the button to learn more about me!</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Listen</button>
           </div>
@@ -24,8 +24,8 @@ function HomeContent() {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
+          <h2 className="card-title">My Experiences</h2>
+          <p>Click the button to check out my resume and qualifications!</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Listen</button>
           </div>
@@ -39,8 +39,8 @@ function HomeContent() {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
+          <h2 className="card-title">My Work</h2>
+          <p>Click the button to check out some of the projects I've built!</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Listen</button>
           </div>
