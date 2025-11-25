@@ -8,6 +8,10 @@ function HomeContent() {
     mx-5 my-10 w-96
   `;
 
+  const imageStyle = `
+    
+  `
+
   return (
     <div className="flex flex-col sm:flex-row justify-center">
       <Link to="/about" className="hover-3d">
@@ -20,8 +24,9 @@ function HomeContent() {
           </div>
           <figure>
             <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              src={aboutImg}
               alt="Shoes"
+              className={imageStyle}
             />
           </figure>
         </div>
@@ -47,6 +52,7 @@ function HomeContent() {
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
               alt="Shoes"
+              className={imageStyle}
             />
           </figure>
         </div>
@@ -72,6 +78,7 @@ function HomeContent() {
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
               alt="Shoes"
+              className={imageStyle}
             />
           </figure>
         </div>
