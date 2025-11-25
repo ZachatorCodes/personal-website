@@ -12,7 +12,7 @@ This website was created with a few different technologies.
 * React Router - v7.8.2 (Frontend Routing)
 * GitHub Pages - v6.3.0 (Site Hosting)
 
-## External Code
-This website was creating using external code in order to allow hosting and front-end routing on GitHub Pages for a single-page web application.
-Thank you to [Rafael Pedicini](https://github.com/rafgraph) for figuring out this work-around!
-* [Single Page Application - GitHub Pages](https://github.com/rafgraph/spa-github-pages)
+## External Resources
+This website was creating using a handful of external resources. They are listed below.
+* [Single Page Web Application Routing for GitHub Pages](https://github.com/rafgraph/spa-github-pages)
+* [FlatIcon Code Logo](https://www.flaticon.com/free-icons/code)
