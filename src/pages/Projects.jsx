@@ -1,4 +1,4 @@
-import Navbar from "./Navbar"
+import Navbar from "../components/Navbar"
 
 function Projects() {
   document.title = "ZachatorCodes | Projects"

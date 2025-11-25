@@ -1,4 +1,4 @@
-import CodeMock from "./CodeMock";
+import CodeMock from "../components/CodeMock";
 import headshot from "/headshot.JPEG";
 import riverbg from "/river-bg.jpg"
 
