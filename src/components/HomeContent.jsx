@@ -1,7 +1,7 @@
 function HomeContent() {
   return (
-    <div className="flex">
-      <div className="card lg:card-side bg-base-100 shadow-sm">
+    <div className="flex justify-center">
+      <div className="card lg:card-side bg-base-100 shadow-sm w-[30%] m-5">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
@@ -16,7 +16,7 @@ function HomeContent() {
           </div>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-sm">
+      <div className="card lg:card-side bg-base-100 shadow-sm w-[30%] m-5">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
@@ -31,7 +31,7 @@ function HomeContent() {
           </div>
         </div>
       </div>
-      <div className="card lg:card-side bg-base-100 shadow-sm">
+      <div className="card lg:card-side bg-base-100 shadow-sm w-[30%] m-5">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
