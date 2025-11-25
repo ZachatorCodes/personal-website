@@ -3,8 +3,8 @@ import aboutImg from "/about-me.JPEG";
 
 function HomeContent() {
   const cardStyle = `
-    card
-    bg-base-100 shadow-sm
+    card rounded-2xl
+    bg-base-100 shadow-lg
     mx-5 my-10 w-96
   `;
 
