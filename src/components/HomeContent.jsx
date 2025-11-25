@@ -17,7 +17,7 @@ function HomeContent() {
 
   const linkStyle = `
     hover-3d
-    mx-8 my-10
+    mx-auto sm:mx-8 my-10
   `
 
   return (
