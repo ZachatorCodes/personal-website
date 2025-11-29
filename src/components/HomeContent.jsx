@@ -5,10 +5,10 @@ import projectsImg from "/projects.JPEG";
 
 function HomeContent() {
   const cardStyle = `
-    card rounded-2xl
-    bg-base-100 shadow-lg
-    w-96
-    max-h-80
+    card-sm sm:card rounded-2xl
+    bg-base-100 shadow-sm sm:shadow-lg
+    w-82 sm:w-96
+    max-h-65 sm:max-h-80
   `;
 
   const imageStyle = `
@@ -17,11 +17,11 @@ function HomeContent() {
 
   const linkStyle = `
     hover-3d
-    mx-auto sm:mx-8 mt-5 sm:my-10
+    mx-auto sm:mx-8 mt-6 sm:my-10
   `
   const linkStyleBottom = `
     hover-3d
-    mx-auto sm:mx-8 my-5 sm:my-10
+    mx-auto sm:mx-8 my-6 sm:my-10
   `
   
   return (
