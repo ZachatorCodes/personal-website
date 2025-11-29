@@ -2,6 +2,7 @@ import CodeMock from "../components/CodeMock";
 import HomeContent from "../components/HomeContent";
 import headshot from "/headshot.JPEG";
 import riverbg from "/river-bg.jpg";
+import flipHeadshop from "/flip-img.jpeg";
 
 function Home() {
   document.title = "ZachatorCodes | Home";
@@ -34,7 +35,15 @@ function Home() {
   return (
     <>
       <div className={codeDiv} style={{ backgroundImage: `url(${riverbg})` }}>
-        <img src={headshot} className={imageStyle} />
+        <label className="swap swap-flip">
+          <input type="checkbox" />
+          <div className="swap-off">
+            <img src={headshot} className={imageStyle} />
+          </div>
+          <div className="swap-on">
+            <img src={flipHeadshop} className={imageStyle} />
+          </div>
+        </label>
         <CodeMock mockup={mockup} />
       </div>
       <HomeContent />
