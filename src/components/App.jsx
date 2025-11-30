@@ -9,7 +9,7 @@ window.addEventListener("pageshow", (event) => {
 
 function App() {
   return (
-    <div className="bg-base-200 sm:h-screen w-full h-full m-0 p-0 overflow-hidden">
+    <div className="bg-base-200 h-auto sm:h-screen">
       <Navbar />
       <Home />
     </div>
