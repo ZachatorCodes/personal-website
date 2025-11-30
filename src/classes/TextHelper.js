@@ -6,7 +6,6 @@ class TextHelper {
     "Computer Science Student",
     "Mathematics Student",
     "Programming Tutor",
-    "[CLICK ON ZACH]",
     "Outdoor Enthusiast",
     "Lifelong Learner",
   ];
