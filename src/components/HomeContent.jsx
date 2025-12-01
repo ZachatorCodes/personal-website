@@ -8,7 +8,8 @@ function HomeContent() {
     card-sm sm:card rounded-2xl
     bg-base-100 shadow-sm sm:shadow-lg
     w-82 sm:w-96
-    max-h-65 sm:max-h-80
+    max-h-65 sm:max-h-90
+    border-3
   `;
 
   const imageStyle = `
