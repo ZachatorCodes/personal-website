@@ -5,7 +5,7 @@ import projectsImg from "/projects.JPEG";
 
 function HomeContent() {
   const cardStyle = `
-    card-sm sm:card rounded-2xl
+    card-sm xl:card-md rounded-2xl
     bg-base-100 shadow-sm sm:shadow-lg
     w-82 sm:w-96
     max-h-65 sm:max-h-90
