@@ -26,7 +26,7 @@ function HomeContent() {
   `
   
   return (
-    <div className="flex flex-col sm:flex-row justify-center">
+    <div className="flex flex-col lg:flex-row justify-center">
       <Link to="/about" className={linkStyle}>
         <div className={cardStyle}>
           <div className="card-body">
