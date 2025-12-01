@@ -7,8 +7,8 @@ function HomeContent() {
   const cardStyle = `
     card-sm xl:card-md rounded-2xl
     bg-base-100 shadow-sm sm:shadow-xl
-    w-82 sm:w-96
-    max-h-65 sm:max-h-90
+    w-75 sm:w-80 md:w-90 lg:w-75 xl:w-95
+    max-h-60 md:max-h-65 xl:max-h-90
     border-3
   `;
 
